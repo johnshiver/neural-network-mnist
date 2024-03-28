@@ -1,0 +1,45 @@
+name: neural-networks-mnist
+channels:
+  - defaults
+dependencies:
+  - asttokens=2.0.5=pyhd3eb1b0_0
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h80987f9_5
+  - ca-certificates=2024.3.11=hca03da5_0
+  - decorator=5.1.1=pyhd3eb1b0_0
+  - executing=0.8.3=pyhd3eb1b0_0
+  - ipython=8.20.0=py311hca03da5_0
+  - jedi=0.18.1=py311hca03da5_1
+  - libcxx=14.0.6=h848a8c0_0
+  - libffi=3.4.4=hca03da5_0
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libopenblas=0.3.21=h269037a_0
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - matplotlib-inline=0.1.6=py311hca03da5_0
+  - ncurses=6.4=h313beb8_0
+  - numpy=1.26.4=py311he598dae_0
+  - numpy-base=1.26.4=py311hfbfe69c_0
+  - openssl=3.0.13=h1a28f6b_0
+  - parso=0.8.3=pyhd3eb1b0_0
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pip=23.3.1=py311hca03da5_0
+  - prompt-toolkit=3.0.43=py311hca03da5_0
+  - prompt_toolkit=3.0.43=hd3eb1b0_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pure_eval=0.2.2=pyhd3eb1b0_0
+  - pygments=2.15.1=py311hca03da5_1
+  - python=3.11.8=hb885b13_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=68.2.2=py311hca03da5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.41.2=h80987f9_0
+  - stack_data=0.2.0=pyhd3eb1b0_0
+  - tk=8.6.12=hb8d0fd4_0
+  - traitlets=5.7.1=py311hca03da5_0
+  - tzdata=2024a=h04d1e81_0
+  - wcwidth=0.2.5=pyhd3eb1b0_0
+  - wheel=0.41.2=py311hca03da5_0
+  - xz=5.4.6=h80987f9_0
+  - zlib=1.2.13=h5a0b063_0
+prefix: /Users/jshiver/miniconda3/envs/neural-networks-mnist
