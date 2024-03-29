@@ -18,6 +18,9 @@ initialize_conda() {
     unset __conda_setup
 }
 
+export_env() {
+    conda env export > environment.yml
+}
 
 # Function to create a new Conda environment
 create_env() {
@@ -50,6 +53,7 @@ usage() {
     echo "  -a  Activate the Conda environment"
     echo "  -d  Deactivate the Conda environment"
     echo "  -u  Update the Conda environment"
+    echo "  -e  Export the Conda environment to environment.yaml"
     exit 1
 }
 
@@ -60,7 +64,7 @@ fi
 
 initialize_conda
 
-while getopts ":cadu" opt; do
+while getopts ":cadue" opt; do
     case ${opt} in
         c )
             create_env
